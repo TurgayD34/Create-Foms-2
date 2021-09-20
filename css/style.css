@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/images/pexels-pixabay-220182.jpeg);
+    object-fit: cover;
+}
+.style-name{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    background-color: rgba(0, 0, 0, .2);
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    width: 500px;
+    background-color: rgba(0, 0, 0, .3);
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+h1 span{
+    font-size: 12px;
+}
+label span{
+    font-size: 22px;
+    font-weight: 200;
+    display: block;
+    margin-top: 10px;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgb(43, 8, 126);
+}
+.boxes input{
+    position: relative;
+    left: 160px;
+    top: -25px;
+    padding: 5px 150px 5px 0;
+}
+.gender label{
+    font-size: 18px;
+    position: relative;
+    left: 160px;
+    top: -22px;
+    color: #fff;
+    margin: 10px;
+}
+#select option{
+    font-size: 18px;
+}
+.select select{
+    position: relative;
+    left: 160px;
+    top: -25px;
+    padding: 5px 150px 5px 0;
+}
+.check-box label{
+    font-size: 18px;
+    position: relative;
+    left: 160px;
+    top: -22px;
+    color: #fff;
+    margin: 10px;
+}
+.message textarea{
+    margin: 15px 30px;
+}
+.submit{
+    background-color: brown;
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    padding: 10px 65px;
+    text-shadow: 1px 1px 1px #333;
+    cursor: pointer;
+    position: relative;
+    left: 160px;
+}
+.submit:hover{
+    background-color: red;
+}
