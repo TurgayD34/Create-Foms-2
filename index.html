@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <form action="#" method="POST" class="style-name">
+        <h1>Contact Form
+            <span>Please fill all the text in the fields.</span>
+        </h1>
+
+        <label for="" class="boxes">
+            <span>Name:</span>
+            <input type="text" name="name" id="name" placeholder="Full Name">
+        </label>
+
+        <label for="" class="boxes">
+            <span>Email:</span>
+            <input type="email" name="email" id="email" placeholder="Email">
+        </label>
+
+        <label for="" class="boxes">
+            <span>Date of Birth:</span>
+            <input type="date" name="date" id="dob" placeholder="Date of Birth">
+        </label>
+
+        <label for="" class="boxes">
+            <span>Phone:</span>
+            <input type="tel" name="tel" id="tel" placeholder="Phone Number">
+        </label>
+
+        <label for="" class="gender">
+            <span>Gender:</span>
+            <label for="">
+                <input type="radio" name="radio" id="radio-btn-1"> Man
+            </label>
+            <label for="">
+                <input type="radio" name="radio" id="radio-btn-2"> Woman
+            </label>
+            <label for="">
+                <input type="radio" name="radio" id="radio-btn-3"> Other
+            </label>
+        </label>
+        
+        <label for="" class="select">
+            <span>Subject:</span>
+            <select name="selection" id="select">
+                <option value="choose" selected disabled>--Choose--</option>
+                <option value="subject1">Subject 1</option>
+                <option value="subject2">Subject 2</option>
+                <option value="subject3">Subject 3</option>
+                <option value="subject4">Subject 4</option>
+                <option value="subject5">Subject 5</option>
+            </select>
+        </label>
+
+        <label for="" class="check-box">
+            <span>Multiple Choise:</span>
+            <label for="">
+                <input type="radio" name="checkbox1" class="checkbox"> choose 1
+            </label>
+            <label for="">
+                <input type="radio" name="checkbox2" class="checkbox"> choose 2
+            </label>
+            <label for="">
+                <input type="radio" name="checkbox3" class="checkbox"> choose 3
+            </label>
+        </label>
+
+        <label for="" class="message">
+            <span>Message:</span>
+            <textarea name="self" id="self" cols="50" rows="5"></textarea>
+        </label>
+        <button class="submit" type="submit">Submit</button>
+
+    </form>
+</body>
+</html>
